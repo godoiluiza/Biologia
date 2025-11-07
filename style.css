@@ -41,3 +41,7 @@ img{
     padding-left: 20px;
     padding-left: 20px;
 }
+.categoria-vídeos img {
+    opacity: 0,5 ;
+    height: 200px;
+}
