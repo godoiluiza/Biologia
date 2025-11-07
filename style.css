@@ -3,6 +3,7 @@ body {
     background-color: rgb(190, 133, 255);
     margin: 0px;
     font-family: "Playwrite Deutschland Grundschrift Guides" sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -23,25 +24,43 @@ header {
 .chamada-texto {
     margin-right: 5%;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-p{
+
+p {
     font-size: 20px;
 }
-img{
+
+img {
     height: 200px;
 }
-.categoria-vídeos{
+
+.categoria-vídeos {
     display: flex;
     overflow-x auto;
     gap: 10px;
 }
-.categoria{
+
+.categoria {
     padding-left: 20px;
-    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
 }
+
 .categoria-vídeos img {
-    opacity: 0,5 ;
+    opacity: 0.5;
     height: 200px;
+}
+
+.categoria-vídeos img;
+
+hover {
+    opacity: 1.0;
+    border: 1px solid plum;
+}
+
+.categoria h2 {
+    color: blueviolet;
 }
